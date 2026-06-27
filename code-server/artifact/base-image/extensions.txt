@@ -1,0 +1,1 @@
+ms-ceintl.vscode-language-pack-ja

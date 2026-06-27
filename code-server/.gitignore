@@ -1,0 +1,12 @@
+*.js
+!jest.config.js
+!artifact/edge/index.js
+!artifact/edge-response/index.js
+*.d.ts
+node_modules
+
+artifact/edge/config.json
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out

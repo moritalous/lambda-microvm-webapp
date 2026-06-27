@@ -1,0 +1,8 @@
+{
+  "telemetry.telemetryLevel": "off",
+  "workbench.startupEditor": "none",
+  "files.autoSave": "afterDelay",
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "security.workspace.trust.enabled": false,
+  "chat.disableAIFeatures": true
+}
