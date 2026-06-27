@@ -7,6 +7,6 @@ const app = new cdk.App();
 new LambdaMicrovmStack(app, config.stackName, {
   env: {
     account: process.env.CDK_DEFAULT_ACCOUNT,
-    region: process.env.CDK_DEFAULT_REGION,
+    region: config.region,
   },
 });

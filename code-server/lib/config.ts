@@ -1,10 +1,12 @@
+const REGION = 'us-east-1';
+
 export const config = {
-  region: 'us-east-1',
+  region: REGION,
   stackName: 'LambdaMicrovmCodeServerStack',
   imageName: 'code-server-microvm',
   tableName: 'microvm-code-server-sessions',
   minimumMemoryInMiB: 2048,
-  baseImageArn: 'arn:aws:lambda:us-east-1:aws:microvm-image:al2023-1',
+  baseImageArn: `arn:aws:lambda:${REGION}:aws:microvm-image:al2023-1`,
   imageDescription: 'code-server on Lambda MicroVM',
   artifactDir: 'artifact/base-image',
   edge: {
