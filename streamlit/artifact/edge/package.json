@@ -1,0 +1,10 @@
+{
+  "name": "microvm-edge",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.1075.0",
+    "@aws-sdk/client-lambda-microvms": "^3.1075.0"
+  }
+}
